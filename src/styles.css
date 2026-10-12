@@ -111,9 +111,8 @@ section { padding: clamp(72px, 11vw, 150px) var(--pad); position: relative; }
   padding-block: 44px; border-block: 1px solid var(--line);
 }
 .brands p { color: var(--smoke); font-size: 0.95rem; }
-.brand-chip { background: var(--ivory); border-radius: 12px; height: 62px; min-width: 150px; padding: 12px 22px; display: grid; place-items: center; }
-.brand-logo { max-height: 36px; width: auto; object-fit: contain; }
-.brand-chip .ph { min-height: 36px; border: 0; background: none; color: #555; font-size: 0.8rem; }
+.brand-names { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px clamp(28px, 5vw, 64px); }
+.brand-names li { font-family: var(--serif); font-size: clamp(1.5rem, 3vw, 2.3rem); font-style: italic; color: var(--champagne); line-height: 1.2; }
 
 /* about */
 .about-grid { display: grid; gap: clamp(36px, 6vw, 96px); }
