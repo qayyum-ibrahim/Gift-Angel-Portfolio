@@ -27,7 +27,7 @@ export const BIO = [
   'I shoot, style, edit and present, so brands get content that is ready to use. I also manage social media and handle digital marketing, so your campaign is covered from idea to post.',
 ];
 
-export const BRANDS = ['Payscribe', 'Legal Paradigms'];
+export const BRANDS = ['Payscribe', 'Rheenu'];
 
 export const NICHES = ['Fashion', 'Beauty', 'Food', 'Lifestyle', 'Commercial'];
 
